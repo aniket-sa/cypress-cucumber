@@ -1,4 +1,4 @@
-# CoreSwift
+# CypressCucumber
 
 End to End automation framework using Cypress with Cucumber 
 
