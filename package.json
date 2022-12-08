@@ -1,15 +1,16 @@
 {
-  "name": "CoreSwift",
+  "name": "CypressAutomation",
   "version": "1.0.0",
   "description": "Framework for Cypress using cucumber",
   "main": "index.js",
   "scripts": {
     "clean:reports": "rm cypress/cucumber-json/* || true",
     "test": "node_modules\\.bin\\cypress run",
+    "runtest": "npm run test --",
     "chromeHeaded": "npm run clean:reports && npx cypress run --browser chrome --headed",
     "chromeHeadless": "npm run clean:reports && npx cypress run --browser chrome --headless"
   },
-  "author": "XYZ",
+  "author": "Aniket Savi",
   "license": "ISC",
   "devDependencies": {
     "@types/cypress-cucumber-preprocessor": "^4.0.1",

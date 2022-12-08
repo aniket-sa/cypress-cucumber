@@ -1,6 +1,6 @@
 Feature: Search item
 
-
+   @sanity
    Scenario: search item in amazon website
 
       Given @search I navigate to the website
