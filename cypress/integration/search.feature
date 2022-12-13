@@ -1,7 +1,7 @@
 Feature: Search item 12
 
    @sanity
-   Scenario: search item in amazon website
+   Scenario: search item in amazon website 
 
       Given @search I navigate to the website
       Then @search I land on Homepage
