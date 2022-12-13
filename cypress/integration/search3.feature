@@ -5,6 +5,6 @@ Feature: Search item 14
 
       Given @search I navigate to the website
       Then @search I land on Homepage
-      When @search I search for "iPhone 14"
+      When @search I search for "serdiac"
       And @search I validate search text
       And @api I run fake API
