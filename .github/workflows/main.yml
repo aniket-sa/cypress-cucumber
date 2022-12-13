@@ -30,7 +30,7 @@ jobs:
           group: 'Actions example'
         env:
           # pass the Cypress Cloud record key as an environment variable
-          CYPRESS_RECORD_KEY: ${{ 26120f80-ff1a-487c-af56-3ba26baf8fab }}
+          CYPRESS_RECORD_KEY: '26120f80-ff1a-487c-af56-3ba26baf8fab'
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
-          GITHUB_TOKEN: ${{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}}
+          GITHUB_TOKEN: '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'
