@@ -6,7 +6,7 @@ on: [push]
 jobs:
   test:
     name: Cypress run
-    runs-on: Windows Server 2022
+    runs-on: ubuntu-20.04
     strategy:
       # when one test fails, DO NOT cancel the other
       # containers, because this will kill Cypress processes
@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         # run 3 copies of the current job in parallel
-        containers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20]
+        containers: [1, 2, 3, 4, 5, 6, 7, 8, 9,10]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
